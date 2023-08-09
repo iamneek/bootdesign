@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/4702626af9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/x-icon" href="fav.png" />
+    <title>NeekCommerce - Login</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary header">
+      <div class="container-fluid">
+        <img src="logooo.png" alt="Logo" class="nav-img" />
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Categories
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Electronic Devices</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Digital Products</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Fashion</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Beauty & cosmetics</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Jwellery</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control search_inp shadow-none"
+                placeholder="Enter Products..."
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn btn-secondary button-search"
+                type="button"
+                id="button-addon2"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </form>
+          <div class="mx-4">
+            <a class="nav-link" href="#">
+              <i
+                class="fa-solid fa-cart-shopping cart_icon"
+                style="color: #2e2e2e"
+                ><div class="cart_count">3</div></i
+              >
+            </a>
+          </div>
+          <div class="buttons mx-2 d-flex gap-4">
+            <a href="#">
+              <button class="btn btn-secondary btn-login">Login</button>
+            </a>
+            <a href="#">
+              <button class="btn btn-outline-secondary btn-signup">
+                Signup
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
