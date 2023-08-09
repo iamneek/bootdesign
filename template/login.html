@@ -20,6 +20,14 @@
       crossorigin="anonymous"
     ></script>
     <link rel="icon" type="image/x-icon" href="fav.png" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <title>NeekCommerce - Login</title>
   </head>
   <body>
@@ -120,5 +128,59 @@
         </div>
       </div>
     </nav>
+    <div class="container">
+      <div
+        class="container-fluid bg_login mt-4 p-4 rounded-3 d-flex align-content-center justify-content-between flex-column align-items-center"
+      >
+        <h2 class="text-center mb-4 login_h2">LOGIN</h2>
+        <div class="form-floating mb-3 w-75">
+          <input
+            type="email"
+            class="form-control"
+            id="floatingInput"
+            placeholder="name@example.com"
+          />
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating w-75">
+          <input
+            type="password"
+            class="form-control"
+            id="floatingPassword"
+            placeholder="Password"
+          />
+          <label for="floatingPassword">Password</label>
+        </div>
+        <button class="btn btn-primary mt-4 sub_btn w-75 rounded-5">
+          Login
+        </button>
+        <div class="hrdivider mt-5 opacity-50 w-50">
+          <hr />
+          <span class="login_or_span">or</span>
+        </div>
+        <button
+          class="btn btn-primary mt-4 sub_btn w-75 rounded-5 google_login"
+        >
+          <ion-icon class="brand_logo" name="logo-google"></ion-icon>Continue
+          with Google
+        </button>
+        <button class="btn btn-primary mt-4 sub_btn w-75 rounded-5 apple_login">
+          <ion-icon class="brand_logo" name="logo-apple"></ion-icon>Continue
+          with Apple
+        </button>
+        <button
+          class="btn btn-primary mt-4 sub_btn w-75 mb-3 rounded-5 fb_login"
+        >
+          <ion-icon class="brand_logo" name="logo-facebook"></ion-icon>Continue
+          with Facebook
+        </button>
+      </div>
+      <img src="arrow.webp" class="arrow" />
+      <p class="signup_forgot">
+        New at NeekCommerce? <a href="#">Join Now</a>.<br />Need help?
+        <a href="#">Forget Password</a>?
+      </p>
+      <img src="hidden.svg" class="image_hidden_man" />
+    </div>
   </body>
 </html>
