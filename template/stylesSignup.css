@@ -4,7 +4,9 @@ body {
   background-color: #f5f5f5 !important;
   font-family: Poppins;
   color: #2e2e2e;
-  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .header {
@@ -130,4 +132,148 @@ a {
   cursor: pointer;
   margin-right: 1em;
   margin-left: 0.5em;
+}
+
+.bg_login {
+  background-color: #fff;
+  width: 50%;
+  z-index: 100;
+}
+
+.login_h2 {
+  font-family: Quicksand;
+  font-weight: bold;
+}
+.sub_btn {
+  background-color: #ffe11b;
+  border: 1px solid #ffe11b;
+  color: #2e2e2e;
+  padding: 20px 20px;
+  cursor: pointer;
+  height: 3.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: Quicksand;
+  font-weight: bold;
+}
+.sub_btn:hover {
+  background-color: #ffde09;
+  color: #565656;
+  border: 1px solid #ffdd00;
+}
+
+.sub_btn:active {
+  background-color: #e8ca03 !important;
+  color: #565656 !important;
+  border: 1px solid #ffdd00 !important;
+}
+
+.hrdivider {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.hrdivider span {
+  position: absolute;
+  top: 5px;
+  background: #fff;
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 16px;
+  left: 45%;
+}
+
+.login_or_span {
+  font-family: Quicksand;
+}
+
+.bg_login {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  z-index: 20;
+}
+
+.fb_login {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+}
+.google_login {
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+.apple_login {
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+
+.apple_login:hover {
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+.google_login:hover {
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+.fb_login:hover {
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+
+.brand_logo {
+  color: #2e2e2e;
+  margin-right: 1em;
+  width: 1.3em;
+  height: 1.3em;
+}
+.illustration_wave {
+  position: absolute;
+  right: -5.3em;
+  bottom: -5.37em;
+  width: 500px;
+  height: 500px;
+  z-index: -1;
+}
+
+.arrow {
+  position: absolute;
+  top: 18%;
+  left: -2em;
+  width: 10em;
+  height: 10em;
+  z-index: -1;
+}
+
+.signup_forgot {
+  position: absolute;
+  left: 6%;
+  top: 30%;
+  z-index: 1;
+  font-family: Quicksand;
+  font-weight: bold;
+}
+
+.signup_forgot a {
+  font-family: Poppins;
+  font-weight: 600;
+  cursor: pointer;
+}
+.heyylogin {
+  font-family: Poppins;
+  text-align: center;
+  margin-top: -5px;
+}
+
+.illuSupporter {
+  position: absolute;
+  width: 21em;
+  height: 5.5em;
+  right: -0.2em;
+  bottom: -5.5em;
+  background-color: #2e2e2e;
+  border-radius: 2em;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }

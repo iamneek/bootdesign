@@ -131,3 +131,76 @@ a {
   margin-right: 1em;
   margin-left: 0.5em;
 }
+
+.bg_login {
+  background-color: #fff;
+  width: 50%;
+  z-index: 100;
+}
+
+.login_h2 {
+  font-family: Quicksand;
+  font-weight: bold;
+}
+.sub_btn {
+  background-color: #ffe11b;
+  border: 1px solid #ffe11b;
+  color: #2e2e2e;
+  padding: 20px 20px;
+  cursor: pointer;
+  height: 3.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: Quicksand;
+  font-weight: bold;
+}
+.sub_btn:hover {
+  background-color: #ffde09;
+  color: #565656;
+  border: 1px solid #ffdd00;
+}
+
+.sub_btn:active {
+  background-color: #e8ca03 !important;
+  color: #565656 !important;
+  border: 1px solid #ffdd00 !important;
+}
+
+.bg_login {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.image_hidden_man {
+  position: absolute;
+  right: -3em;
+  bottom: -1em;
+  width: 500px;
+  height: 500px;
+  z-index: -1;
+}
+
+.arrow {
+  position: absolute;
+  top: 18%;
+  left: -2em;
+  width: 10em;
+  height: 10em;
+  z-index: -1;
+}
+
+.signup_forgot {
+  position: absolute;
+  left: 6%;
+  top: 30%;
+  z-index: 1;
+  font-family: Quicksand;
+  font-weight: bold;
+}
+
+.signup_forgot a {
+  font-family: Poppins;
+  font-weight: 600;
+  cursor: pointer;
+}

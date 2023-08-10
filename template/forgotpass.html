@@ -14,7 +14,7 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="stylesLogin.css" />
+    <link rel="stylesheet" href="stylesForgot.css" />
     <script
       src="https://kit.fontawesome.com/4702626af9.js"
       crossorigin="anonymous"
@@ -28,7 +28,7 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-    <title>NeekCommerce - Login</title>
+    <title>NeekCommerce - Forgot Password</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary header">
@@ -41,6 +41,7 @@
             class="img img-fluid"
           />
         </a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -143,11 +144,8 @@
       <div
         class="container-fluid bg_login mt-4 p-4 rounded-3 d-flex align-content-center justify-content-between flex-column align-items-center"
       >
-        <h2 class="text-center mb-4 login_h2">User Login</h2>
-        <p class="heyylogin">
-          Hey, Enter your details to sign in<br />to your account
-        </p>
-        <div class="form-floating mb-3 w-75 mt-2">
+        <h2 class="text-center mb-4 login_h2">Reset Password</h2>
+        <div class="form-floating mb-3 w-75">
           <input
             type="email"
             class="form-control"
@@ -156,46 +154,16 @@
           />
           <label for="floatingInput">Email address</label>
         </div>
-        <div class="form-floating w-75">
-          <input
-            type="password"
-            class="form-control"
-            id="floatingPassword"
-            placeholder="Password"
-          />
-          <label for="floatingPassword">Password</label>
-        </div>
         <button class="btn btn-primary mt-4 sub_btn w-75 rounded-5">
-          Sign in
-        </button>
-        <div class="hrdivider mt-4 opacity-50 w-50">
-          <hr />
-          <span class="login_or_span">or</span>
-        </div>
-        <button
-          class="btn btn-primary mt-3 sub_btn w-75 rounded-5 google_login"
-        >
-          <ion-icon class="brand_logo" name="logo-google"></ion-icon>Continue
-          with Google
-        </button>
-        <button class="btn btn-primary mt-3 sub_btn w-75 rounded-5 apple_login">
-          <ion-icon class="brand_logo" name="logo-apple"></ion-icon>Continue
-          with Apple
-        </button>
-        <button
-          class="btn btn-primary mt-3 sub_btn w-75 mb-3 rounded-5 fb_login"
-        >
-          <ion-icon class="brand_logo" name="logo-facebook"></ion-icon>Continue
-          with Facebook
+          Send Reset Link
         </button>
       </div>
-      <img src="arrow.webp" class="arrow img img-fluid" />
+      <img src="arrow.webp" class="arrow" />
       <p class="signup_forgot">
-        New at NeekCommerce?
-        <a href="/template/signup.html">Join Now</a>.<br />Need help?
-        <a href="/template/forgotpass.html">Forget Password</a>?
+        Want To Login? <a href="/template/login.html">Login Here</a>.<br />New
+        Here? <a href="/template/signup.html">Signup</a>?
       </p>
-      <img src="hidden.svg" class="image_hidden_man img img-fluid" />
+      <img src="Questions-cuate.svg" class="image_hidden_man" />
     </div>
   </body>
 </html>

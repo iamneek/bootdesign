@@ -14,7 +14,7 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="stylesLogin.css" />
+    <link rel="stylesheet" href="stylesSignup.css" />
     <script
       src="https://kit.fontawesome.com/4702626af9.js"
       crossorigin="anonymous"
@@ -28,7 +28,7 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-    <title>NeekCommerce - Login</title>
+    <title>NeekCommerce - Register</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary header">
@@ -41,6 +41,7 @@
             class="img img-fluid"
           />
         </a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -143,9 +144,9 @@
       <div
         class="container-fluid bg_login mt-4 p-4 rounded-3 d-flex align-content-center justify-content-between flex-column align-items-center"
       >
-        <h2 class="text-center mb-4 login_h2">User Login</h2>
+        <h2 class="text-center mb-4 login_h2">Register Your Account</h2>
         <p class="heyylogin">
-          Hey, Enter your details to sign in<br />to your account
+          Hey, Please fill out the required form<br />to setup your account.
         </p>
         <div class="form-floating mb-3 w-75 mt-2">
           <input
@@ -156,7 +157,7 @@
           />
           <label for="floatingInput">Email address</label>
         </div>
-        <div class="form-floating w-75">
+        <div class="form-floating w-75 mb-3">
           <input
             type="password"
             class="form-control"
@@ -165,8 +166,17 @@
           />
           <label for="floatingPassword">Password</label>
         </div>
+        <div class="form-floating w-75">
+          <input
+            type="password"
+            class="form-control"
+            id="floatingPassword"
+            placeholder="Password"
+          />
+          <label for="floatingPassword">Confirm Password</label>
+        </div>
         <button class="btn btn-primary mt-4 sub_btn w-75 rounded-5">
-          Sign in
+          Sign Up
         </button>
         <div class="hrdivider mt-4 opacity-50 w-50">
           <hr />
@@ -191,11 +201,12 @@
       </div>
       <img src="arrow.webp" class="arrow img img-fluid" />
       <p class="signup_forgot">
-        New at NeekCommerce?
-        <a href="/template/signup.html">Join Now</a>.<br />Need help?
+        Already a Member?
+        <a href="/template/login.html">Login Now</a>.<br />Need help?
         <a href="/template/forgotpass.html">Forget Password</a>?
       </p>
-      <img src="hidden.svg" class="image_hidden_man img img-fluid" />
+      <img src="Hello-rafiki.svg" class="illustration_wave img img-fluid" />
+      <div class="illuSupporter"></div>
     </div>
   </body>
 </html>
